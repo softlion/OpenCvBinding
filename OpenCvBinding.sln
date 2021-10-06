@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bindings", "Bindings", "{B51E53D3-A095-454E-B11C-996F46A5AD35}"
+	ProjectSection(SolutionItems) = preProject
+		CreateBindingIos.md = CreateBindingIos.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.OpenCvBinding", "Xamarin.Android.OpenCvBinding\Xamarin.Android.OpenCvBinding.csproj", "{A744998D-E8A6-45D7-8D71-97C402E0EA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Ios.OpenCvBinding", "Xamarin.Ios.OpenCvBinding\Xamarin.Ios.OpenCvBinding.csproj", "{7E24C9F6-DB04-4BF4-8B2D-0533AC9C79C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{D780ACE6-06DC-446A-9F01-B932160A3BA5}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\pack.ps1 = nuget\pack.ps1
+		nuget\Softlion.OpenCvBinding.nuspec = nuget\Softlion.OpenCvBinding.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A744998D-E8A6-45D7-8D71-97C402E0EA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A744998D-E8A6-45D7-8D71-97C402E0EA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A744998D-E8A6-45D7-8D71-97C402E0EA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A744998D-E8A6-45D7-8D71-97C402E0EA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E24C9F6-DB04-4BF4-8B2D-0533AC9C79C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E24C9F6-DB04-4BF4-8B2D-0533AC9C79C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E24C9F6-DB04-4BF4-8B2D-0533AC9C79C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E24C9F6-DB04-4BF4-8B2D-0533AC9C79C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A744998D-E8A6-45D7-8D71-97C402E0EA38} = {B51E53D3-A095-454E-B11C-996F46A5AD35}
+		{7E24C9F6-DB04-4BF4-8B2D-0533AC9C79C2} = {B51E53D3-A095-454E-B11C-996F46A5AD35}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92FBA054-D81E-4271-8076-63F7A1A927B5}
+	EndGlobalSection
+EndGlobal

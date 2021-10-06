@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Softlion.OpenCvBinding</id>
+    <version>0.0.1</version>
+    <title>OpenCV bindings for ios and android</title>
+    <authors>Benjamin Mayrargue</authors>
+    <owners>Benjamin Mayrargue</owners>
+    <licenseUrl>https://vapolia.eu</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      OpenCV bindings for Xamarin iOS and Android
+    </description>
+    <tags>openCV xamarin ios android</tags>
+    <releaseNotes>
+      0.0.1
+      initial checkin
+    </releaseNotes>
+  </metadata>
+  <files>
+    <!-- android -->
+    <file src="..\Xamarin.Android.OpenCvBinding\bin\Release\Xamarin.Android.OpenCvBinding.dll" target="lib\MonoAndroid\Xamarin.Android.OpenCvBinding.dll" />
+
+    <!-- ios -->
+    <file src="..\Xamarin.Ios.OpenCvBinding\bin\Release\Xamarin.Ios.OpenCvBinding.dll" target="lib\Xamarin.iOS\Xamarin.Ios.OpenCvBinding.dll" />
+  </files>
+</package>
+
