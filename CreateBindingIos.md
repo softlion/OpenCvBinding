@@ -75,4 +75,6 @@ And emit this message:
 
 Replace ApiDefinitions.cs and StructsAndEnums.cs by the above ones. You can add a namespace around the codes.  
 Copy the file ios/opencv2.framework/Versions/A/opencv2 and rename it opencv2.a  
-Add it to the project at its root. It build action should be automatically set to ObjcBindingNativeLibrary.  
+Add it to the project at its root. Its build action should be automatically set to ObjcBindingNativeLibrary.  
+
+NOTE: the binding project is already created in this git. Just copy the .a file at its root and it's fully setup.
